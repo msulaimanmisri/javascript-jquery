@@ -1,1 +1,18 @@
-$(".cardbox").hide();
+// $(".cardbox").hide();
+
+// $(".cardbox").click(function () {
+//   alert("you just clicked me with jQuery!");
+// });
+
+/**
+ * Ini cara untuk select satu per satu
+ */
+// $("#flashMsg").hide();
+// $("#flashMsg").slideDown(2000);
+// $("#flashMsg").delay(3000);
+// $("#flashMsg").slideUp();
+
+/**
+ * Ini untuk cara untuk kita run semua sekaligus pada selector yang sama
+ */
+$("#flashMsg").hide().slideDown(1500).delay(3000).slideUp(1500);
