@@ -15,4 +15,13 @@
 /**
  * Ini untuk cara untuk kita run semua sekaligus pada selector yang sama
  */
-$("#flashMsg").hide().slideDown(1500).delay(3000).slideUp(1500);
+// $("#flashMsg").hide().slideDown(1500).delay(3000).slideUp(1500);
+
+/**
+ * Setter & Getter
+ */
+// let title = "Allahuakbar";
+// let content = "<b>SubhanaAllah</b>";
+
+// $(".blogPostTitle").text(title);
+// $(".blogPostContent").html(content);
