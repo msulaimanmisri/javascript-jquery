@@ -25,3 +25,18 @@
 
 // $(".blogPostTitle").text(title);
 // $(".blogPostContent").html(content);
+
+/**
+ * Preview code from html
+ */
+
+$("#btnPreview").click(function () {
+  var title = $("#blogTitleInput").val();
+
+  var content = $("#contentInput").val();
+
+  $(".blogTitleReview").text(title);
+  $(".blogContentReview").html(content);
+});
+
+$(selector).slideUp();

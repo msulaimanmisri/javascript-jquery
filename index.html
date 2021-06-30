@@ -22,23 +22,25 @@
 
             <div class="blogPost">
                 <form action="" method="POST" class="form-group">
-                    <label for="title" class="form label">Title</label>
-                    <input type="text" name="title" id="title" class="form-control mb-3">
+                    <label for="blogTitleInput" class="form label">Title</label>
+                    <input type="text" name="blogTitleInput" id="blogTitleInput" class="form-control mb-3">
 
-                    <label for="content" class="form label">Content</label>
-                    <textarea name="content" class="form-control" id="content" cols="15" rows="3"></textarea>
+                    <label for="contentInput" class="form label">Content</label>
+                    <textarea name="contentInput" class="form-control" id="contentInput" cols="15" rows="3"></textarea>
+
+                    <button class="btn btn-primary mt-3" id="btnPreview">Preview</button>
                 </form>
-            </div>
 
-            <hr class="my-5">
+                <hr class="my-5">
 
-            <div class="blogPostReview">
-                <div class="card p-3 fst-italic bg-light">
-                    <h2 class="blogPostTitle fs-4"></h2>
+                <div class="blogPostReview">
+                    <div class="card p-3 fst-italic bg-light">
+                        <h2 class="blogTitleReview fs-4"></h2>
 
-                    <hr class="">
+                        <hr class="">
 
-                    <span class="blogPostContent"></span>
+                        <span class="blogContentReview"></span>
+                    </div>
                 </div>
 
             </div>
